@@ -1,22 +1,20 @@
-.cols{
-    position: absolute;
-    width: 100%;
-    cursor: pointer;
-    display: inline-flex;
-   
-}
-span:hover{
-    color: red;
-}
 
-.col1 {
-    margin: 15px;
-}
+  .footer-container {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    max-height: 200px;
+    
+  }
+  
+  .footer-container span {
+    color: gray;
+    border-radius: 5px;
+  }
+    .footer-container span:hover{
+        color: red;
+        cursor: pointer;
 
-.cols{
-    width: inherit;
-    border-collapse: collapse;
-    margin-top: 20px;
-    display: gird;
-    justify-items: space-between;
-}
+    }

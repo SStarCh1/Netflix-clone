@@ -41,9 +41,13 @@
   }
   
   .logo img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
     height: 40px;
   }
-  
+  .logo img:hover{
+    transform: scale(1.66);
+  }
   nav ul {
     display: flex;
    
@@ -60,5 +64,11 @@
   nav ul li a:hover {
     color: #e50914;
   }
- 
+
+  .container h2{
+    font-size: 40px;
+  }
+ #film-icon{
+  width: 40px;
+ }
  
