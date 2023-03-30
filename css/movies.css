@@ -1,0 +1,24 @@
+.allMovies{
+    white-space: nowrap;
+    height: auto; 
+  
+  
+}
+
+.movie{
+    display: inline-block; 
+    cursor: pointer;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+  .movies-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-left: 18px;
+  }

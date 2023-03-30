@@ -4,6 +4,7 @@
     padding: 0;
   }
   
+
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -45,10 +46,11 @@
   
   nav ul {
     display: flex;
+   
   }
   
-  nav ul li {
-    margin-left: 30px;
+  nav ul li a{
+    margin-left: 40px;
   }
   
   nav ul li:first-child {
@@ -58,24 +60,5 @@
   nav ul li a:hover {
     color: #e50914;
   }
-  
-  .banner {
-   
-  }
-
-  
-  .movie {
-    height: 201px;
-    width: 160px;
-    margin: 10px;
-    border-radius: 0px;
-    margin-left: 20px;
-  }
-  .movies-list{
-    display: flex;
-  flex-wrap: wrap;
-  }
-  h2{
-    margin-left: 20px;
-  }
-  
+ 
+ 

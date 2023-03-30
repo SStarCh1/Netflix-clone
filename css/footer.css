@@ -1,0 +1,22 @@
+.cols{
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    display: inline-flex;
+   
+}
+span:hover{
+    color: red;
+}
+
+.col1 {
+    margin: 15px;
+}
+
+.cols{
+    width: inherit;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: gird;
+    justify-items: space-between;
+}
